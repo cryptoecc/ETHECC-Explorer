@@ -88,18 +88,25 @@ export default (props: any) => {
 
   return (
     <div>
+
+
       <Grid container spacing={3} direction="column">
         <Grid item container justify="space-between">
+
           <Grid item key="blockHeight">
+
             <ChartCard title={t("Block Height")}>
               <Typography variant="h4">{blockNumber}</Typography>
             </ChartCard>
+
           </Grid>
+
           <Grid key="chainId" item>
             <ChartCard title={t("Chain ID")}>
               <Typography variant="h4">{hexToNumber(chainId)}</Typography>
             </ChartCard>
           </Grid>
+
           {syncing &&
             <div key="syncing">
               <ChartCard title={t("Syncing")}>
@@ -132,16 +139,26 @@ export default (props: any) => {
           </Grid>
         </Grid>
       </Grid>
+
+
+
       <StatCharts victoryTheme={victoryTheme} blocks={blocks} />
+
+
       <Grid container justify="flex-end">
         <Button
           color="primary"
           variant="outlined"
           endIcon={<ArrowForwardIos />}
           onClick={() => props.history.push("/stats/miners")}
-        >More Stats</Button>
+        ><span style={{color:"#5EADC2"}}>More Stats</span></Button>
       </Grid>
+
+
+
       <br />
+
+        <h2 style={{color: "#5EADC2",  textAlign: "center" as "center"}}>Recent Blocks</h2> <hr style={{ color: "#5EADC2 !important",  height:"100", width:"50%"}}/>
 
       <BlockListContainer
         from={Math.max(blockNumber - 14, 0)}

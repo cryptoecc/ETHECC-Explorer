@@ -2,10 +2,18 @@ import ERPC from "@etclabscore/ethereum-json-rpc";
 import React, { Dispatch, useState, useEffect } from "react";
 import { IChain as Chain } from "../models/chain";
 
+
+
+
 function useEthRPC(queryUrlOverride?: string): [ERPC, Dispatch<Chain>] {
   const [erpc, setErpc] = React.useState<ERPC>();
   const [selectedChain, setSelectedChain] = React.useState<Chain>();
-  const [urlOverride] = useState(queryUrlOverride || process.env.REACT_APP_ETH_RPC_URL);
+ // const [urlOverride] = useState(queryUrlOverride || process.env.REACT_APP_ETH_RPC_URL);
+
+
+  const [urlOverride] = useState(queryUrlOverride || 'http://3.39.29.150:8545');
+
+  //const urlOverride = 'http://3.39.29.150:8545';
 
   useEffect(() => {
     if (selectedChain === undefined && !urlOverride) { return; }

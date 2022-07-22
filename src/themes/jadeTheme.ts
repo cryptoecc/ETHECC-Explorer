@@ -13,7 +13,7 @@ export const lightTheme = responsiveFontSizes(createMuiTheme({
   overrides: {
     MuiAppBar: {
       root: {
-        background: "#fff !important",
+        background: "#5EADC2 !important",
       },
     },
   },

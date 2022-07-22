@@ -2,6 +2,8 @@ body {
     margin: 0;
     overflow-x: hidden;
     max-width: 100%;
+    background-color: hsl(206, 62%, 95%) !important;
+
 }
 
 
@@ -17,4 +19,15 @@ body {
 ::-webkit-scrollbar-thumb {
   background: #ddd;
   border-radius: 5px;
+}
+
+
+/* custom css*/
+.MuiTypography-root
+{
+  color: #5EADC2 !important;
+}
+
+.MuiButton-label{
+  color: #ffffff !important;
 }

@@ -52,7 +52,7 @@ import { IChain as Chain } from "./models/chain";
 import useChainListStore from "./stores/useChainListStore";
 import useEthRPCStore from "./stores/useEthRPCStore";
 import AddChain from "./components/AddChain/AddChain";
-import { NetworkWifi } from "@material-ui/icons";
+import { CenterFocusStrong, NetworkWifi } from "@material-ui/icons";
 
 const history = createPreserveQueryHistory(createBrowserHistory, [
   "network",
@@ -238,7 +238,11 @@ function App(props: any) {
   return (
     <Router history={history}>
       <ThemeProvider theme={theme}>
-        <AppBar position="sticky" color="default" elevation={0}>
+
+
+
+
+        <AppBar position="sticky"  elevation={0}>
           <Toolbar>
             <Grid
               justify="space-between"
@@ -271,8 +275,13 @@ function App(props: any) {
                     </Grid>
                     <Grid>
                       <Typography color="textSecondary" variant="h6">
-                        {t("Expedition")}
+
+                        <span style={{color:"#C70039"}}>LV</span> <span style={{color:"#fff"}}>Scanner</span>
                       </Typography>
+
+
+
+
                     </Grid>
                   </Grid>
                 </Link>
@@ -348,20 +357,31 @@ function App(props: any) {
                     <CodeIcon />
                   </IconButton>
                 </Tooltip>
+
+
                 <Tooltip title={t("Toggle Dark Mode") as string}>
                   <IconButton onClick={darkMode.toggle}>
                     {darkMode.value ? <Brightness3Icon /> : <WbSunnyIcon />}
                   </IconButton>
                 </Tooltip>
+
+
               </Grid>
             </Grid>
           </Toolbar>
         </AppBar>
+
+
+
+
+
         <AddChain
           open={addChainDialogIsOpen}
           onCancel={cancelAddChainDialog}
           onSubmit={submitAddChainDialog}
         />
+
+
         <div style={{ margin: "0px 25px 0px 25px" }}>
           <QueryParamProvider ReactRouterRoute={Route}>
             <CssBaseline />
@@ -386,6 +406,15 @@ function App(props: any) {
             </Switch>
           </QueryParamProvider>
         </div>
+
+
+
+        <div style={{color: "#FFF", background: "#5EADC2", textAlign: "center" as "center", padding: "6px 0px 6px 0px", margin: "20px 0px 0px 0px"}}>
+          <h5> Infonet &copy; 2022</h5>
+        </div>
+
+
+
       </ThemeProvider>
     </Router>
   );

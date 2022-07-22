@@ -22,7 +22,7 @@ function BlockList({ blocks }: any) {
       <Table>
         <TableHead>
           <TableRow>
-
+            <TableCell><Typography>{t("Author")}</Typography></TableCell>
             <TableCell><Typography>{t("Block Number")}</Typography></TableCell>
             <TableCell><Typography>{t("Timestamp")}</Typography></TableCell>
             <TableCell><Typography>{t("#Txs")}</Typography></TableCell>
@@ -73,7 +73,19 @@ function BlockList({ blocks }: any) {
 
             return (
               <TableRow key={b.number} style={authorHashStyle}>
-
+                <TableCell style={rightPaddingFix}>
+                  <Typography>
+                    <Link
+                      component={({ className, children }: { children: any, className: string }) => (
+                        <RouterLink className={className} to={`/address/${b.miner}`} >
+                          {children}
+                        </RouterLink>
+                      )}>
+                      {authorHashShort}
+                    </Link>
+                    &nbsp;<sup>{hexToString(b.extraData).substring(0, 20)}</sup>
+                  </Typography>
+                </TableCell>
                 <TableCell component="th" scope="row">
                   <Link
                     component={({ className, children }: { children: any, className: string }) => (
