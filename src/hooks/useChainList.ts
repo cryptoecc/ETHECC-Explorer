@@ -8,6 +8,16 @@ import React from "react";
 export default function() {
   const [chains, setChains] = React.useState<Chain[]>([
     {
+      name: "ETH-ECC",
+      network: "mainnet",
+      rpc: ["http://3.39.29.150:8545"],
+    },
+    {
+      name: "Ganache-Localhost",
+      network: "mainnet",
+      rpc: ["HTTP://127.0.0.1:7545"],
+    },
+    {
       name: "Ethereum Classic",
       network: "mainnet",
       rpc: ["https://www.ethercluster.com/etc"],
