@@ -2,7 +2,7 @@
 
 <!-- project logo w/ quick links -->
 <p align="center">
-  <img src="https://github.com/etclabscore/jade-media-assets/blob/master/j-explorer/j-explorer(PNG)/128x128.png?raw=true" />
+  <img src="https://github.com/istiaque010/expeditionexplorer/blob/main/img3.PNG?raw=true" />
 
 ![logo](img3.PNG)
 </p>
