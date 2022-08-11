@@ -20,8 +20,10 @@
   </p>
 </center>
 
+Home Page:
 ![expedition_gif](https://github.com/istiaque010/expeditionexplorer/blob/main/img1.PNG)
 
+More Statistics:
 ![expedition_gif](https://github.com/istiaque010/expeditionexplorer/blob/main/img2.PNG)
 
 <!-- table of contents -->
