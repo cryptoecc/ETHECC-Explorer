@@ -4,9 +4,10 @@
 <p align="center">
   <img src="https://github.com/etclabscore/jade-media-assets/blob/master/j-explorer/j-explorer(PNG)/128x128.png?raw=true" />
 
-  ![logo] (img1.PNG)
+
 </p>
 <center>
+![logo] (img1.PNG)
   <h3 align="center">ETHECC-Explorer</h3>
 
   <p align="center">
