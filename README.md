@@ -1,4 +1,4 @@
-# Expedition
+# ETHECC-Explorer
 
 <!-- project logo w/ quick links -->
 <p align="center">
