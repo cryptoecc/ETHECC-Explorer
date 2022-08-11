@@ -64,7 +64,7 @@ Explorer Features:
 ### Installation
 Clone/ download the project, and install dependencies.
 ```bash
-git clone https://github.com/xops/expedition.git && cd expedition && npm install
+git clone https://github.com/cryptoecc/ETHECC-Explorer.git && cd expedition && npm install
 ```
 
 <!-- example usage, screen shots, demos -->
