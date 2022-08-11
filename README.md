@@ -78,7 +78,7 @@ npm start
 
 ### Configurations
 
-### Set rpc from code
+#### Set rpc from code
 Example: <br/>
 name: "ETH-ECC" <br/>
 network: "mainnet" <br/>
