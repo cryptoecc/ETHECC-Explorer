@@ -4,7 +4,7 @@
 <p align="center">
   <img src="https://github.com/etclabscore/jade-media-assets/blob/master/j-explorer/j-explorer(PNG)/128x128.png?raw=true" />
 
-
+![logo](img3.PNG)
 </p>
 <center>
 
@@ -38,7 +38,7 @@
 
 <!-- about the project -->
 ## About The Project
-![logo](img3.PNG)
+
 
 [Expedition](https://expedition.dev) is a minimal block explorer for Ethereum Stack. It does not use a database, and can be configured to point at any remote RPC node for any EVM-based network. The goal of the Explorer is to provide a resource for network information and block exploration with only an Ethereum EPC endpoint.
 
