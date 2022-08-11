@@ -3,6 +3,8 @@
 <!-- project logo w/ quick links -->
 <p align="center">
   <img src="https://github.com/etclabscore/jade-media-assets/blob/master/j-explorer/j-explorer(PNG)/128x128.png?raw=true" />
+
+  ![logo] (img1.PNG)
 </p>
 <center>
   <h3 align="center">ETHECC-Explorer</h3>
@@ -10,11 +12,11 @@
   <p align="center">
     A block explorer for the Ethereum Stack.
     <br />
-    <a href="https://expedition.dev">View Demo</a>
+    <a href="http://3.39.29.150:3000/?network=ETH-ECC">View Demo</a>
     ·
-    <a href="https://github.com/etclabscore/expedition/issues/new?assignees=&labels=&template=bug_report.md&title=">Report Bug</a>
+    <a href="">Report Bug</a>
     ·
-    <a href="https://github.com/etclabscore/expedition/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
+    <a href="">Request Feature</a>
   </p>
 </center>
 
