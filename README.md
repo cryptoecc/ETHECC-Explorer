@@ -82,7 +82,7 @@ npm start
 Example: <br/>
 name: "ETH-ECC" <br/>
 network: "mainnet" <br/>
-rpc: ["http://3.39.29.150:8545"]
+rpc: ["http:// your IP:rpc port"]
 
 #### Set rpc via url
 
