@@ -7,7 +7,8 @@
 
 </p>
 <center>
-![logo] (img3.PNG)
+![logo](https://https://github.com/istiaque010/expeditionexplorer/blob/main/img3.PNG?raw=true)
+
   <h3 align="center">ETHECC-Explorer</h3>
 
   <p align="center">
