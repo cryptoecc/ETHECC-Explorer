@@ -7,7 +7,7 @@
 
 </p>
 <center>
-![logo] (img1.PNG)
+![logo] (img3.PNG)
   <h3 align="center">ETHECC-Explorer</h3>
 
   <p align="center">
