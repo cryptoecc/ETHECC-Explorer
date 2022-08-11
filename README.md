@@ -7,7 +7,7 @@
 
 </p>
 <center>
-![logo](https://github.com/istiaque010/expeditionexplorer/blob/main/img3.PNG?raw=true)
+
 
   <h3 align="center">ETHECC-Explorer</h3>
 
@@ -38,6 +38,7 @@
 
 <!-- about the project -->
 ## About The Project
+![logo](img3.PNG)
 
 [Expedition](https://expedition.dev) is a minimal block explorer for Ethereum Stack. It does not use a database, and can be configured to point at any remote RPC node for any EVM-based network. The goal of the Explorer is to provide a resource for network information and block exploration with only an Ethereum EPC endpoint.
 
