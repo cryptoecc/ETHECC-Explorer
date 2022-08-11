@@ -3,8 +3,6 @@
 <!-- project logo w/ quick links -->
 <p align="center">
   <img src="https://github.com/istiaque010/expeditionexplorer/blob/main/img3.PNG?raw=true" />
-
-![logo](img3.PNG)
 </p>
 <center>
 
