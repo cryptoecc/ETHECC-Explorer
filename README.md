@@ -21,9 +21,11 @@
 </center>
 
 Home Page:
+
 ![ETHECC1](https://github.com/istiaque010/expeditionexplorer/blob/main/img1.PNG)
 
 More Statistics:
+
 ![ETHECC2](https://github.com/istiaque010/expeditionexplorer/blob/main/img2.PNG)
 
 <!-- table of contents -->
@@ -42,7 +44,7 @@ More Statistics:
 ## About The Project
 
 
-[Expedition](https://expedition.dev) is a minimal block explorer for Ethereum Stack. It does not use a database, and can be configured to point at any remote RPC node for any EVM-based network. The goal of the Explorer is to provide a resource for network information and block exploration with only an Ethereum EPC endpoint.
+This ETHECC-Explorer is a clone of [Expedition](https://expedition.dev). It is a block explorer for Ethereum Stack. It does not use a database, and can be configured to point at any remote RPC node for any EVM-based network. The goal of the Explorer is to provide a resource for network information and block exploration with only an Ethereum EPC endpoint.
 
 Explorer Features:
 - Display chain id
@@ -75,6 +77,12 @@ npm start
 *The explorer will run at http://localhost:3000/.*
 
 ### Configurations
+
+### Set rpc from code
+Example:
+name: "ETH-ECC",
+network: "mainnet",
+rpc: ["http://3.39.29.150:8545"]
 
 #### Set rpc via url
 
