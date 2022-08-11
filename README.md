@@ -2,7 +2,7 @@
 
 <!-- project logo w/ quick links -->
 <p align="center">
-  <img src="https://github.com/istiaque010/expeditionexplorer/blob/main/img4.PNG?raw=true" />
+  <img src="https://github.com/cryptoecc/ETHECC-Explorer/blob/main/img4.PNG?raw=true" />
 </p>
 <center>
 
