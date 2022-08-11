@@ -79,9 +79,9 @@ npm start
 ### Configurations
 
 ### Set rpc from code
-Example:
-name: "ETH-ECC",
-network: "mainnet",
+Example: <br/>
+name: "ETH-ECC" <br/>
+network: "mainnet" <br/>
 rpc: ["http://3.39.29.150:8545"]
 
 #### Set rpc via url
