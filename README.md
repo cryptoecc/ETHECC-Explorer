@@ -21,10 +21,10 @@
 </center>
 
 Home Page:
-![expedition_gif](https://github.com/istiaque010/expeditionexplorer/blob/main/img1.PNG)
+![ETHECC1](https://github.com/istiaque010/expeditionexplorer/blob/main/img1.PNG)
 
 More Statistics:
-![expedition_gif](https://github.com/istiaque010/expeditionexplorer/blob/main/img2.PNG)
+![ETHECC2](https://github.com/istiaque010/expeditionexplorer/blob/main/img2.PNG)
 
 <!-- table of contents -->
 ## Table of Contents
