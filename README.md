@@ -20,7 +20,9 @@
   </p>
 </center>
 
-![expedition_gif](https://user-images.githubusercontent.com/364566/94349388-d17fb000-fff8-11ea-92ae-71c002474a65.gif)
+![expedition_gif](https://github.com/istiaque010/expeditionexplorer/blob/main/img1.PNG)
+
+![expedition_gif](https://github.com/istiaque010/expeditionexplorer/blob/main/img2.PNG)
 
 <!-- table of contents -->
 ## Table of Contents
